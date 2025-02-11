@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* li {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(225, 208, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+body .main-container {
+  background-color: white;
+  text-align: center;
+  width: 750px;
+  min-height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #333;
+  border: 2px solid black;
+}
+body .main-container .box-container {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+body .main-container .box-container input {
+  width: 85%;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 2px solid #988a8a;
+  outline: none;
+}
+body .main-container .box-container button {
+  padding: 12px 10px;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  color: blueviolet;
+  background-color: transparent;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+body .main-container .box-container button:active {
+  scale: 0.9;
+}
+body .main-container .list {
+  margin: auto;
+  max-width: 80%;
+}
+body .main-container .list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .main-container .list .icons {
+  display: flex;
+  gap: 10px;
+}
+body .main-container .list .icons i {
+  font-size: 1em;
+}
+body .main-container .list .icons i:active {
+  scale: 0.9;
+}
+
+/*# sourceMappingURL=style.css.map */
